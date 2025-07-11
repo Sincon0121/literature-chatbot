@@ -64,3 +64,4 @@ if st.button("분석 및 추천하기"):
         data = parse_input(user_input)
         st.markdown(analyze_work(data))
         st.success(recommend_next_work(data.get("정서 및 표현기법", "")))
+        
