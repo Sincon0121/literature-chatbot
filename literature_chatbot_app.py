@@ -1,7 +1,7 @@
 import streamlit as st
 from dotenv import load_dotenv
 import os
-import openai
+from openai import OpenAI
 
 # .env 파일 불러오기
 load_dotenv()
